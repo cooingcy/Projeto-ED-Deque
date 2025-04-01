@@ -2,11 +2,11 @@ package dequeEstrutura;
 
 import dequeEstrutura.componente.No;
 
-public class DequeComposto {
+public class DequeEncadeado {
     private No inicio;
     private No fim;
 
-    public DequeComposto() {
+    public DequeEncadeado() {
         this.inicio = null;
         this.fim = null;
     }
